@@ -150,6 +150,18 @@ img {
     background: #000;
     color: #fff;
 }
+
+/* Hide content initially */
+#tab-1-content,
+#tab-2-content,
+#tab-3-content {
+    display: none;
+}
+
+.show {
+    display: block !important;
+}
+
 #tab-1-content .tab-1-content-inner {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -277,6 +289,10 @@ img {
     outline: none;
     box-shadow: 0 1px 0 rgba(0, 0, 0, 0.45);
     border-radius: 2px;
+}
+
+.btn-icon {
+    margin-left: 1rem;
 }
 
 .btn:hover {
